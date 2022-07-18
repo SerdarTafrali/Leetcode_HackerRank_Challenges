@@ -4,4 +4,4 @@ The majority element is the element that appears more than ⌊n / 2⌋ times. Yo
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        return int(median(nums))
+        return int(mode(nums))
